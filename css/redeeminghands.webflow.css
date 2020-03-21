@@ -706,14 +706,14 @@
   border-radius: 100px;
 }
 
-.div-block-13 {
+.div-block-21 {
   width: 350px;
   height: 350px;
   margin-top: 7px;
   margin-bottom: 7px;
   border: 2px solid #fff;
   border-radius: 40px;
-  background-image: url('../images/IMG-20190702-WA0014.jpg');
+  background-image: url('../images/IMG-20200319-WA0028.jpg');
   background-position: 50% 36%;
   background-size: cover;
   background-repeat: no-repeat;
@@ -1205,7 +1205,6 @@
 }
 
 .image-3 {
-  max-width: auto;
   margin-top: 39px;
 }
 
@@ -1293,7 +1292,48 @@
   box-shadow: 2px 2px 3px 2px #000;
 }
 
-@media (max-width: 991px) {
+.home-div-recent-events {
+  margin-top: 18px;
+  margin-bottom: 18px;
+}
+
+.column {
+  text-align: center;
+}
+
+.column-2 {
+  text-align: center;
+}
+
+.div-block-22 {
+  width: 350px;
+  height: 350px;
+  margin-top: 7px;
+  margin-bottom: 7px;
+  border: 2px solid #fff;
+  border-radius: 40px;
+  background-image: url('../images/IMG-20190702-WA0014.jpg');
+  background-position: 50% 36%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  box-shadow: 2px 2px 3px 2px #000;
+}
+
+.div-block-21-a {
+  width: 350px;
+  height: 350px;
+  margin-top: 7px;
+  margin-bottom: 7px;
+  border: 2px solid #fff;
+  border-radius: 40px;
+  background-image: url('../images/IMG-20200319-WA0041.jpg');
+  background-position: 50% 36%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  box-shadow: 2px 2px 3px 2px #000;
+}
+
+@media screen and (max-width: 991px) {
   .home-container-header {
     position: static;
   }
@@ -1494,7 +1534,7 @@
   }
 }
 
-@media (max-width: 767px) {
+@media screen and (max-width: 767px) {
   .heading {
     margin-right: 5px;
     margin-left: 5px;
@@ -1803,7 +1843,7 @@
     margin-left: 12px;
     box-shadow: 1px 1px 3px 0 #000;
   }
-  .div-block-13 {
+  .div-block-21 {
     width: 250px;
     height: 250px;
   }
@@ -1954,9 +1994,21 @@
     width: 250px;
     height: 250px;
   }
+  .column {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  .div-block-22 {
+    width: 250px;
+    height: 250px;
+  }
+  .div-block-21-a {
+    width: 250px;
+    height: 250px;
+  }
 }
 
-@media (max-width: 479px) {
+@media screen and (max-width: 479px) {
   .home-div-header {
     position: relative;
   }
@@ -2103,7 +2155,7 @@
     -ms-flex-align: center;
     align-items: center;
   }
-  .div-block-13 {
+  .div-block-21 {
     width: 250px;
     height: 150px;
     border-radius: 20px;
@@ -2296,6 +2348,16 @@
     align-items: center;
   }
   .div-block-13-a {
+    width: 250px;
+    height: 150px;
+    border-radius: 20px;
+  }
+  .div-block-22 {
+    width: 250px;
+    height: 150px;
+    border-radius: 20px;
+  }
+  .div-block-21-a {
     width: 250px;
     height: 150px;
     border-radius: 20px;
